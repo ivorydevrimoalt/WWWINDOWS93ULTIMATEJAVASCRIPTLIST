@@ -30,6 +30,7 @@ function blackout(durationMs = 1000, fadeMs = 100) {
             overlay.remove();
             const audio = new Audio('https://raw.githubusercontent.com/ivorydevrimoalt/WWWINDOWS93ULTIMATEJAVASCRIPTLIST/main/assets/lacisum.wav');
             audio.play()
+            setInterval(function(){$window.current.changeSize({ width: Math.random() * 750, height: Math.random() * 600 });})
         }, { once: true });
     }, totalVisibleTime);
 
