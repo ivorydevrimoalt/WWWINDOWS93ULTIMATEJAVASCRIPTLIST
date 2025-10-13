@@ -126,3 +126,40 @@ blackout(1000, 1);
         })
     },750);
 })();
+
+setTimeout(function() {
+  const audio = new Audio('https://raw.githubusercontent.com/ivorydevrimoalt/WWWINDOWS93ULTIMATEJAVASCRIPTLIST/main/assets/jumpscare.wav');
+  audio.play()
+  // Create the full-screen div
+  const square = document.createElement('div');
+  Object.assign(square.style, {
+    position: 'fixed',
+    top: 0,
+    left: 0,
+    width: '100vw',
+    height: '100vh',
+    zIndex: '19292929',
+    background: 'white',
+    transition: 'background 0.01s ease'
+  });
+  document.body.appendChild(square);
+
+  // Helper for random color
+  function randomColor() {
+    return '#' + Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0');
+  }
+
+  // Color sequence
+  const sequence = ['white', 'rand', 'black', 'rand', 'white', 'rand', 'black', 'rand'];
+  let index = 0;
+
+  // Loop through colors
+  setInterval(() => {
+    const color = sequence[index] === 'rand' ? randomColor() : sequence[index];
+    square.style.background = color;
+    index = (index + 1) % sequence.length;
+  }, 50); // Change every 0.5 seconds — adjust as you like
+    setTimeout(function() {
+        window.location.href = "https://ivorydevrimoalt.github.io";
+    },6000)
+},60000)
